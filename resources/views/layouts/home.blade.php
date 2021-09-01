@@ -3,7 +3,7 @@
     @section('content')
       <!--Right Col-->
       <div class="w-full xl:w-3/5 py-6 overflow-y-hidden">
-        <img class="mx-auto lg:mr-0 slide-in-bottom" src="img/Render.png">
+        <img class="mx-auto lg:mr-0 slide-in-bottom" src="img/render.png">
       </div>
 
       <!--Left Col-->

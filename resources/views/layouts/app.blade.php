@@ -37,7 +37,7 @@
       <div class="w-full flex items-center justify-between">
         <div class="justify-start">
           <a class="flex items-center no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="/"> 
-            <img class="fill-current pr-2" src="img/Logo.png">
+            <img class="fill-current pr-2" src="img/logo.png">
           </a>
         </div>
         <div class="flex w-1/2 justify-end content-center">   
