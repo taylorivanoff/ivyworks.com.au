@@ -17,5 +17,7 @@
         <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle">Register your interest below to be notified when it drops.</p>
 
         @yield('section')
+
+        <p class="leading-normal text-xs md:text-sm mb-8 mt-4 text-center md:text-left slide-in-bottom-subtitle">{{ \App\Models\GuestUser::count() }} people are interested.</p>
       </div>
     @endsection
