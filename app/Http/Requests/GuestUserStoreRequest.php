@@ -24,7 +24,7 @@ class GuestUserStoreRequest extends FormRequest
     public function rules()
     {
         return [
-            'email_address' => ['required', 'email', 'max:400', 'unique:guest_users'],
+            'email_address' => ['required', 'email', 'max:400', 'unique:guest_users', 'indisposable'],
         ];
     }
 

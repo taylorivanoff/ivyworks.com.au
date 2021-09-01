@@ -37,8 +37,6 @@ class GuestUserController extends Controller
     {
         $guestUser = GuestUser::create($request->validated());
 
-        //$request->session()->flash('guestUser.id', $guestUser->id);
-
         return redirect()->route('guestUser.show');
     }
 

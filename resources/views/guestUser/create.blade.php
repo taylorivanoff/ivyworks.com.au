@@ -11,9 +11,11 @@
             </div>
         @endif
 
-        <form class="flex flex-start flex-wrap items-center slide-in-bottom-subtitle gap-4" method="POST" action="/guest/store">
+        <form class="flex flex-start flex-wrap items-center slide-in-bottom-subtitle gap-4" method="POST" action="/guest/store" id="registerInterest">
             @csrf
             <input class="p-4 text-gray-900 w-96" style="background-color: #fff" type="email" name="email_address" placeholder="your@email.com">
-            <button class="p-4 border border-gray-900 w-full md:w-auto" type="submit">Notify me</button>
+            <button class="p-4 border border-gray-900 w-full md:w-auto" data-sitekey="6LdxkzscAAAAAGye90F0VyulXY1p9nye0eDv1Em-" data-callback='onSubmit' class="p-4 border border-gray-900 w-full md:w-auto">Notify me</button>
+
+            {{-- <button class="p-4 border border-gray-900 w-full md:w-auto" type="submit">Notify me</button> --}}
         </form>
     @endsection
