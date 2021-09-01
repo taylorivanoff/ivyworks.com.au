@@ -25,8 +25,11 @@ class GuestUserListLayout extends Table
     protected function columns(): array
     {
         return [
-            TD::make('email_address', 'E-mail address'),
-            TD::make('created_at', 'Created')
+            TD::make('email_address', 'E-mail'),
+            TD::make('created_at', 'Registered')
+                ->render(function ($guestUser) {
+                    return $guestUser->created_at->setTimezone('Australia/Sydney')->format('g:ia d/m/Y');
+                }),
         ];
     }
 }
