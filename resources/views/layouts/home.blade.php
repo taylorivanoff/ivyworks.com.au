@@ -12,9 +12,9 @@
           INTRODUCING <br>6% SENSE.
         </h1>
 
-        <p class="leading-normal text-base md:text-2xl mb-12 text-center md:text-left slide-in-bottom-subtitle">A cost-effective six key programmable macropad keyboard. Coming soon.</p>
+        <p class="leading-normal text-base md:text-2xl mb-12 text-center md:text-left slide-in-bottom-subtitle">A cost-effective six key programmable macropad. Coming soon.</p>
 
-        <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle">Register your interest below to be kept updated.</p>
+        <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle">Register your interest below to be notified when it drops.</p>
 
         @yield('section')
       </div>

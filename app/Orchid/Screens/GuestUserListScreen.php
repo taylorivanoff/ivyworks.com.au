@@ -13,15 +13,7 @@ class GuestUserListScreen extends Screen
      *
      * @var string
      */
-    public $name = 'Guest users';
-
-
-    /**
-     * Display header description.
-     *
-     * @var string
-     */
-    public $description = 'All guest users';
+    public $name = 'Guest Users';
 
     /**
      * Query data.

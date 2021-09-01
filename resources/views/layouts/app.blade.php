@@ -32,7 +32,7 @@
   </style>
 </head>
 
-<body class="leading-normal tracking-normal text-gray-900" style="font-family: 'Space Mono', monospace; background-color: #FAF3E0;">
+<body class="leading-normal tracking-normal text-gray-900" style="font-family: 'Space Mono', monospace; background-color: #faf3e0;">
     <!--Nav-->
     <div class="w-full container mx-auto p-8">
       <div class="w-full flex items-center justify-between">
