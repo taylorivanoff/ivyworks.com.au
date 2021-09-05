@@ -13,6 +13,14 @@
   <link rel="icon" type="image/png" href="favicon.png" />
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
   <style>
+      img {
+        -webkit-user-drag: none;
+        -khtml-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        user-drag: none;
+      }
+
       :-ms-input-placeholder { /* Internet Explorer 10-11 */
         color: #1E212D;
       }
@@ -38,7 +46,7 @@
    </script>
 </head>
 
-<body class="leading-normal tracking-normal text-gray-900" style="font-family: 'Space Mono', monospace; background-color: #faf3e0;">
+<body class="leading-normal tracking-normal text-gray-900" style="font-family: 'Space Mono', monospace; background-color: #FDEFEF;">
     <!--Nav-->
     <div class="w-full container mx-auto p-8">
       <div class="w-full flex items-center justify-between">
