@@ -1,7 +1,7 @@
     @extends('layouts.app')
 
     @section('content')
-      <section class="mx-auto flex flex-wrap flex-col md:flex-row items-center">
+      <section class="w-full flex flex-wrap flex-col md:flex-row items-center ">
         <div class="w-full xl:w-3/5 py-6 overflow-y-hidden lg:p-12 lg:mt-12 mb-12">
           <img class="mx-auto lg:mr-0 slide-in-bottom" src="img/render.png">
         </div>
@@ -11,9 +11,11 @@
             INTRODUCING <br>6% SENSE.
           </h1>
 
-          <p class="leading-normal text-base md:text-2xl mb-12 text-left slide-in-bottom-subtitle">A cost-effective programmable macropad. <br><br>Coming October, 2021.</p>
+          <p class="leading-normal text-base md:text-xl mb-12 text-left slide-in-bottom-subtitle">A cost-effective programmable macropad.</p>
 
-          <p class="leading-normal text-base md:text-2xl mb-8 text-left slide-in-bottom-subtitle">Register your interest below to be notified when it drops.</p>
+          <p class="leading-normal text-base md:text-xl mb-8 text-left slide-in-bottom-subtitle">Coming October, 2021.</p>
+
+          <p class="leading-normal text-base md:text-xl mb-8 text-left slide-in-bottom-subtitle">Register your interest below to be notified when it drops.</p>
 
           @yield('section')
 
@@ -21,6 +23,7 @@
         </div>
       </section>
 
+      <!--
       <section class="mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <div class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
           <h1 class="mt-5 mb-12 text-3xl md:text-5xl font-bold leading-tight text-left slide-in-bottom-h1" style="color:#1E212D">
@@ -40,5 +43,6 @@
           </p>
         </div>
       </section>
+      -->
       
     @endsection
