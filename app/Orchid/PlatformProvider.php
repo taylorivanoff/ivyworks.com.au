@@ -16,8 +16,6 @@ class PlatformProvider extends OrchidServiceProvider
     public function boot(Dashboard $dashboard): void
     {
         parent::boot($dashboard);
-
-        // ...
     }
 
     /**
@@ -78,13 +76,13 @@ class PlatformProvider extends OrchidServiceProvider
                 ->icon('docs')
                 ->url('https://orchid.software/en/docs'),
 
-            Menu::make('Changelog')
-                ->icon('shuffle')
-                ->url('https://github.com/orchidsoftware/platform/blob/master/CHANGELOG.md')
-                ->target('_blank')
-                ->badge(function () {
-                    return Dashboard::version();
-                }, Color::DARK()),
+            // Menu::make('Changelog')
+            //     ->icon('shuffle')
+            //     ->url('https://github.com/orchidsoftware/platform/blob/master/CHANGELOG.md')
+            //     ->target('_blank')
+            //     ->badge(function () {
+            //         return Dashboard::version();
+            //     }, Color::DARK()),
 
             Menu::make(__('Users'))
                 ->icon('user')

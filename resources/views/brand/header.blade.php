@@ -6,4 +6,4 @@
     >
 @endpush
 
-<img src="/img/logo-white.png">
+<img src="/img/logo-white.png" width="64">

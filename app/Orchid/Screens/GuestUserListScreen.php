@@ -23,7 +23,7 @@ class GuestUserListScreen extends Screen
     public function query(): array
     {
         return [
-            'guest_users' => GuestUser::paginate()
+            'guest_users' => GuestUser::orderBy('created_at', 'desc')->paginate()
         ];
     }
 

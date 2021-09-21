@@ -3,7 +3,7 @@
     @section('content')
       <section class="w-full flex flex-wrap flex-col md:flex-row items-center ">
         <div class="w-full xl:w-3/5 py-6 overflow-y-hidden lg:p-12 lg:mt-12 mb-12">
-          <img class="mx-auto lg:mr-0 slide-in-bottom" src="img/render.png">
+          <img class="mx-auto slide-in-bottom" src="img/render.png">
         </div>
 
         <div class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
