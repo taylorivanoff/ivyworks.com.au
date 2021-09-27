@@ -11,15 +11,13 @@
             INTRODUCING <br>6% SENSE.
           </h1>
 
-          <p class="leading-normal text-base md:text-xl mb-12 text-left slide-in-bottom-subtitle">A cost-effective programmable macropad.</p>
+          <p class="leading-normal text-base md:text-xl mb-12 text-left slide-in-bottom-subtitle">A 6-key programmable macropad.</p>
 
-          <p class="leading-normal text-base md:text-xl mb-8 text-left slide-in-bottom-subtitle">Coming October, 2021.</p>
+          <p class="leading-normal text-base md:text-xl mb-8 text-left slide-in-bottom-subtitle">Now available!</p>
 
-          <p class="leading-normal text-base md:text-xl mb-8 text-left slide-in-bottom-subtitle">Register your interest below to be notified when it drops.</p>
+          <a class="p-4 border border-gray-900 w-full md:w-auto slide-in-bottom-subtitle" target="_blank" href="https://www.etsy.com/au/listing/1077981726/6-sense-6-key-programmable-macropad">Get it now</a>
 
-          @yield('section')
-
-          <p class="leading-normal text-xs md:text-sm mb-8 mt-4 text-left slide-in-bottom-subtitle">{{ \App\Models\GuestUser::count() }} people are currently interested.</p>
+          <p class="leading-normal text-xs md:text-sm mb-8 mt-6 text-left slide-in-bottom-subtitle">{{ \App\Models\GuestUser::count() }} had registered their interest.</p>
         </div>
       </section>
 
