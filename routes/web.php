@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [App\Http\Controllers\GuestUserController::class, 'create'])->name('guestUser.create');
+Route::get('/guide', function () {
+    return view('pages/guide');
+});
 Route::get('/guest', [App\Http\Controllers\GuestUserController::class, 'show'])->name('guestUser.show');
 Route::post('/guest/store', [App\Http\Controllers\GuestUserController::class, 'store']);
