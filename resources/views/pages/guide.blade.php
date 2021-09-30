@@ -16,7 +16,7 @@
         </p>
 
         <a 
-            class="p-4 lg:text-left text-center border border-gray-900 w-full md:w-auto slide-in-bottom-subtitle"
+            class="p-4 lg:text-left text-center border border-gray-900 w-full md:w-auto slide-in-bottom-subtitle hover:text-gray-500 hover:border-gray-500"
             target="_blank"
             href="https://get.vial.today/download/"
         >
