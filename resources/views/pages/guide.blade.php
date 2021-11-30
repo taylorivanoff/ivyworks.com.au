@@ -4,15 +4,19 @@
   <section class="mx-auto flex flex-wrap flex-col md:flex-row items-center">
     <div class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
         <h1 class="mt-5 mb-12 text-3xl md:text-5xl font-bold leading-tight text-left slide-in-bottom-h1" style="color:#1E212D">
-            MAKE IT YOUR OWN.
+          MAKE IT YOUR OWN.
         </h1>
 
         <p class="leading-normal text-base mb-12 text-left slide-in-bottom-subtitle">
-            Configure the macropad using an open-source QMK software such as Vial, which allows you to configure custom macros and assign keybinds on the fly to optimise any workflow.
+          Configure the macropad using Vial, which allows you to assign custom macros and keybinds on the fly to optimise any workflow.
         </p>
 
         <p class="leading-normal text-base mb-12 text-left slide-in-bottom-subtitle">
-            Vial then saves any changes made onto the macropad itself, so you can take your macros on the go with the included carry case.
+          Find out how to setup shortcuts/macros such as Copy/Paste/Undo etc. with Vial's <a href="https://get.vial.today/manual/macros.html" target="_blank" class="underline">guide to macros</a>.
+        </p>
+
+        <p class="leading-normal text-base mb-12 text-left slide-in-bottom-subtitle">
+          Changes made are saved onto the macropad itself, so you can take your macros on the go with the included carry case.
         </p>
 
         <a 
@@ -20,7 +24,7 @@
             target="_blank"
             href="https://get.vial.today/download/"
         >
-            Get Vial
+            Download Vial
         </a>
     </div>
 
@@ -31,4 +35,6 @@
       </p>
     </div>
   </section>
+
+  
 @endsection
